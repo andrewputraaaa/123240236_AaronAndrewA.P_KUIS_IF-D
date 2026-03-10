@@ -1,0 +1,23 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package kuispbo236;
+
+/**
+ *
+ * @author Lab Informatika
+ */
+public class Invalidinput extends Exception{
+    public Invalidinput(){
+        super();
+    }
+    
+    public Invalidinput(string massage){
+        super(massage);
+    }
+    public Invalidinput(Throwable cause){
+        super(cause);
+    }
+    
+}
